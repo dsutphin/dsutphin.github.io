@@ -1,0 +1,41 @@
+body {
+    font-family: 'Raleway', sans-serif, serif;
+    font-size: 1.2em;
+    margin: 0;
+    background-color: #1e1e1e;
+    color: white;
+}
+header, main {
+    padding:5px;  
+    max-width: 40em;
+    margin: .5em;
+    margin: auto;
+}
+header {
+    text-align: center;
+}
+a:link {
+    color: #569cd6;
+    font-weight: normal;
+}
+a:visited {
+    color: #c586c0;
+}
+h2 {
+    margin: 0;
+    color: #007acc;
+}
+h1, h2, h3, p{
+    margin: 0;
+}
+main p {
+    margin: 0 0 0 2em;
+}
+@media (prefers-color-scheme: light), print {
+    body {
+        background-color: #fff;
+    }
+    body, #contact h1 {
+        color: #000;
+    }
+}
